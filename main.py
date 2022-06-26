@@ -14,7 +14,8 @@ app = FastAPI(title='mask api', description=app_desc)
 
 origins = [
     "http://localhost:3000",
-    "localhost:3000"
+    "localhost:3000",
+    "https://agrim2001.github.io/face_mask_detector/"
 ]
 
 app.add_middleware(
